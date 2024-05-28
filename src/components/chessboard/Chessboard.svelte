@@ -4,7 +4,7 @@
     import { monitorForElements } from "@atlaskit/pragmatic-drag-and-drop/element/adapter";
     import Square from "./Square.svelte";
     import Piece from "./Piece.svelte";
-    import type { Coord, PieceRecord } from "../types";
+    import type { Coord, PieceRecord } from "../../types";
     import { onMount } from "svelte";
 
     let pieces: PieceRecord[] = [

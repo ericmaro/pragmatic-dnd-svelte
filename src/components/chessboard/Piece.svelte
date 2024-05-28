@@ -1,6 +1,6 @@
 <script lang="ts">
     import { draggable } from "@atlaskit/pragmatic-drag-and-drop/element/adapter";
-    import type { Coord } from "../types";
+    import type { Coord } from "../../types";
     import { onMount } from "svelte";
 
     export let location: Coord | number[];

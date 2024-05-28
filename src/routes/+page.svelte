@@ -1,9 +1,13 @@
 
 
 <script lang="ts">
-    import Chessboard from "../components/Chessboard.svelte";
+
+import List from "../components/list/List.svelte"
 
 
 
 </script>
-<Chessboard />
+
+
+<!-- needs a lot of improvements -->
+<List/>

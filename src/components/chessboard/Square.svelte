@@ -1,6 +1,6 @@
 <script lang="ts">
     import { dropTargetForElements } from "@atlaskit/pragmatic-drag-and-drop/element/adapter";
-    import type { Coord, PieceRecord } from "../types";
+    import type { Coord, PieceRecord } from "../../types";
     import { nanoid } from 'nanoid'
     import { onMount } from "svelte";
 
