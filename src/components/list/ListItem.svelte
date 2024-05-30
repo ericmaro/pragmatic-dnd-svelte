@@ -113,8 +113,10 @@
                     });
                 },
                 onDrag({ self, source }) {
+             
                     const isSource = source.element === ref;
                     if (isSource) {
+                        console.log("isSource", isSource)
                         setClosestEdge = null;
                         return;
                     }
@@ -137,12 +139,17 @@
                         return;
                     }
 
+                    console.log(closestEdge)
+
                     setClosestEdge = closestEdge;
+
                 },
                 onDragLeave() {
+                    console.log("leave drag")
                     setClosestEdge = null;
                 },
                 onDrop() {
+                    console.log("on drop")
                     setClosestEdge = null;
                 },
             });
